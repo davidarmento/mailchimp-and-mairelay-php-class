@@ -17,7 +17,7 @@ class Mailchimp {
     //List ID
     var $list = '{your-beautifull-mailchimp-list-id}';
 
-	function add( $email, $name='', $surname='' ) {
+    function add( $email, $name='', $surname='' ) {
 
         $ch = curl_init( $this->url . 'lists/'.$this->list.'/members/' );
 
