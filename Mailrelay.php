@@ -10,10 +10,10 @@ info@davidarmento.com
 class Mailrelay {
 
     //Mailrelay API credentials
-    var $key = '{your-beauty-mailrelay-api-key}';
-    var $url = '{your-beauty-mailrelay-api-url}';
-
-	  function add( $email, $name='', $surname='' ) {
+    var $key = '{your-beautifull-mailrelay-api-key}';
+    var $url = '{your-beautifull-mailrelay-api-url}';
+	
+    function add( $email, $name='', $surname='' ) {
 
         $curl = curl_init($this->url);
 
