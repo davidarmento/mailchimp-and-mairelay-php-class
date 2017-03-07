@@ -10,12 +10,12 @@ info@davidarmento.com
 class Mailchimp {
 
     //Mailchimp API credentials
-    var $login = '{your-beauty-mailchimp-user}';
-    var $key = '{your-beauty-mailchimp-api-key}';
-    var $url = '{your-beauty-mailchimp-api-url}';
+    var $login = '{your-beautifull-mailchimp-user}';
+    var $key = '{your-beautifull-mailchimp-api-key}';
+    var $url = '{your-beautifull-mailchimp-api-url}';
 
     //List ID
-    var $list = '5e88d8b180';
+    var $list = '{your-beautifull-mailchimp-list-id}';
 
 	function add( $email, $name='', $surname='' ) {
 
