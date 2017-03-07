@@ -28,7 +28,7 @@ $response = $mailchimpClass->add( "john-doe@gmail.com", "John", "Doe" );
 ##Using Mailrelay
 
 
-### 1 - Configure your API credentials and List ID
+### 1 - Configure your API credentials
 
 ```
 //Mailrelay API credentials
